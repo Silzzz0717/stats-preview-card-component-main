@@ -2,28 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Frontend Mentor - Stats Preview Card" />
+    <meta name="keywords" content="Stats Preview Card, Frontend Mentor" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Local Style-->
+    <link href="styles.css" rel="stylesheet" />
 
+    <!--Favicon-->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="styles.css" />
-
-    <title>Frontend Mentor | Stats preview card component</title>
+    <title>Stats Preview Card</title>
   </head>
-  <body>
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+  <body>
+    <main>
+      <!-- Main Container-->
+      <section class="center-container">
+        <!-- Stats Container-->
+        <section class="stats-container">
+          <h1>
+            Get<span class="insights-text"> insights</span> that help your
+            business grow.
+          </h1>
+          <p class="describtion">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <!-- Numbers Container -->
+          <section class="numbers-container">
+            <section class="nums">
+              <h2>10k+</h2>
+              <p>companies</p>
+            </section>
+            <section class="nums">
+              <h2>314</h2>
+              <p>templates</p>
+            </section>
+            <section class="nums">
+              <h2>12M+</h2>
+              <p>queries</p>
+            </section>
+          </section>
+        </section>
+        <!-- Image Container-->
+        <section class="image-container">
+          <img
+            src="images/image-header-desktop.jpg"
+            alt=""
+            aria-hidden="true"
+          />
+        </section>
+      </section>
+    </main>
   </body>
 </html>
